@@ -7,3 +7,10 @@ def myfunc():
 myfunc()
 
 print("Der beste Fußballer " + x)
+
+print(12+12)
+
+print(230-220)
+print(123*123)
+print(718461985/81295467)
+
