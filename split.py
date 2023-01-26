@@ -1,3 +1,3 @@
-txt = "Apfel#Mango#Birne#Pflaume"
-x = txt.split("#")
-print(x)
+thislist = ["Apfel", "Banane", "Traube", "Mandarine", "Erdbeere", "Kirsche"]
+print(thislist)
+print(len(thislist))
