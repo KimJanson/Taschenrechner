@@ -19,14 +19,12 @@ if "-" in eingabe:
 if "*" in eingabe:
     ergebnis = zahl1 * zahl2
 if "/" in eingabe:
-    ergebnis = zahl1 / zahl2
-
-frage = input("Willst du weiter rechnen? (Ja/Nein): ")
-
-frage = str(jein)
-
-if (jein == "Ja"):
-    
-elif (jein == "Nein"):            
+    ergebnis = zahl1 / zahl2 
 
 print("Das Ergebnis ist " + str(ergebnis))
+
+eingaben1 = ["Erneut? (ja/nein): "]
+for x in eingaben1:
+    print(x)
+if "ja" in eingaben1
+    continue
