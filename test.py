@@ -22,5 +22,3 @@ if "/" in eingabe:
     ergebnis = zahl1 / zahl2            
 
 print("Das Ergebnis ist " + str(ergebnis))
-if eingaben == "ergebnis":
-    continue 
