@@ -23,8 +23,10 @@ if "/" in eingabe:
 
 print("Das Ergebnis ist " + str(ergebnis))
 
-eingaben1 = ["Erneut? (ja/nein): "]
-for x in eingaben1:
-    print(x)
-if "ja" in eingaben1
+eingaben1 = input("Noch eine weitere Eingabe: ")
+
+for x in fruits:
+  if x == "eingaben1":
     continue
+  print(x)
+    
