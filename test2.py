@@ -23,7 +23,7 @@ if "/" in eingabe:
 
 print("Das Ergebnis ist " + str(ergebnis))
 
-eingaben1 = input("Weitere Eingabe: ")
+eingaben1 = input("Weitere Eingabe?: ")
   
 for x in eingaben1:
   if x == "ja":
