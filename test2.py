@@ -24,7 +24,7 @@ if "/" in eingabe:
 print("Das Ergebnis ist " + str(ergebnis))
 
 eingaben1 = input("Noch eine weitere Eingabe: ")
-
+  
 for x in fruits:
   if x == "eingaben1":
     continue
