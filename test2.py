@@ -23,10 +23,8 @@ if "/" in eingabe:
 
 print("Das Ergebnis ist " + str(ergebnis))
 
-eingaben1 = input("Noch eine weitere Eingabe: ")
+eingaben1 = input("Weitere Eingabe: ")
   
-for x in fruits:
-  if x == "eingaben1":
+for x in eingaben1:
+  if x == "ja":
     continue
-  print(x)
-    
