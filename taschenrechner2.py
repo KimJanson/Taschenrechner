@@ -29,5 +29,7 @@ while True:
     eingaben1 = input("Weitere Eingabe? (ja/nein): ")
     if eingaben1 == "nein":
         break
-     
+else:
+    print("Ungültiges Zeichen")
+
     
