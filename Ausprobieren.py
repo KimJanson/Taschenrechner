@@ -4,8 +4,7 @@ def myfunc():
   x = "der beste."
   print("Ronaldo ist " + x)
   
-myfunc()
-
+  
 print("Der beste Fußballer " + x)
 
 print(12+12)

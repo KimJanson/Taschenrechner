@@ -8,7 +8,7 @@ if "*" in eingabe:
     eingaben = eingabe.split ("*")   
 if "/" in eingabe:
     eingaben = eingabe.split ("/")
-    
+
 zahl1 = int(eingaben[0]) 
 zahl2 = int(eingaben[1]) 
  

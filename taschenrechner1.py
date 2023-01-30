@@ -10,4 +10,3 @@ if Rechenzeichen == "*":
 if Rechenzeichen == "/":
     Ergebnis=Zahl1/Zahl2    
 print("Das Ergebnis ist: " + str(Ergebnis))  
-
