@@ -3,21 +3,12 @@ import re
 def rechner():
     eingabe = input("Ihre Eingabe: ")
 
-    match = re.search("^\d+[\*\+\-/]\d+$", eingabe)
-
-    if not match:
-        print("Ungültiges Zeichen")
-        return
+x = re.search("^\d+[\*\+\-/]\d+$", txt)
+    if "+", "-", "*","/" in eingabe:
+        eingaben = eingabe.split ("+", "-", "*", "/")
+    else:
+        print("Ungültige Eingabe")
         
-    if "+" in eingabe:
-        eingaben = eingabe.split ("+")
-    if "-" in eingabe:
-        eingaben = eingabe.split ("-")
-    if "*" in eingabe:
-        eingaben = eingabe.split ("*")   
-    if "/" in eingabe:
-        eingaben = eingabe.split ("/")
-
     zahl1 = int(eingaben[0]) 
     zahl2 = int(eingaben[1]) 
  
@@ -33,11 +24,15 @@ def rechner():
     print("Das Ergebnis ist " + str(ergebnis))
 
 while True:
+    x = re.search("^\d+[\*\+\-/]\d+$", eingaben)
+    if x:
+        continue
+    else:
+        print("Ungültige Eigabe")
+
     rechner()
     eingaben1 = input("Weitere Eingabe? (ja/nein): ")
     if eingaben1 == "nein":
         break
-    elif eingaben1 != "ja":
-        print("Ungültiges Zeichen")
-        break
-
+else:
+    print("Ungültiges Zeichen")
