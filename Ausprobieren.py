@@ -1,17 +1,9 @@
-x = "aller zeiten."
-
-def myfunc():
-  x = "der beste."
-  print("Ronaldo ist " + x)
-  
-  
-print("Der beste Fußballer " + x)
-
-print(12+12)
-
-print(230-220)
-print(123*123)
-print(718461985/81295467)
-print(1213*1234)
-
 import re
+
+
+if re.search("cow","A cat and a rat can't be friends"):
+    print ("Der Ausdruck hat gepasst")  
+else:
+    print ("Der Ausdruck hat nicht gepasst")
+
+

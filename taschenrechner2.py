@@ -32,4 +32,3 @@ while True:
 else:
     print("Ungültiges Zeichen")
 
-    
