@@ -6,7 +6,7 @@ def rechner():
     match = re.search("^\d+[\*\+\-/]\d+$", eingabe)
 
     if not match:
-        print("Ungültiges Zeichen")
+        print("!!!Ungültiges Zeichen!!!")
         return
         
     if "+" in eingabe:
@@ -19,6 +19,7 @@ def rechner():
         eingaben = eingabe.split ("/")
 
     zahl1 = int(eingaben[0]) 
+
     zahl2 = int(eingaben[1]) 
  
     if "+" in eingabe:
@@ -38,6 +39,6 @@ while True:
     if eingaben1 == "nein":
         break
     elif eingaben1 != "ja":
-        print("Ungültiges Zeichen")
+        print("!!!Ungültiges Zeichen!!!")
         break
 
